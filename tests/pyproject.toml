@@ -11,7 +11,7 @@ readme = "README.md"
 python = "^3.12"
 
 [tool.poetry.group.test.dependencies]
-pytest = "8.1.2"
+pytest = "9.0.3"
 gitpython = "3.1.43"
 testpath = "0.6.0"
 
