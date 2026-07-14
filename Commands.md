@@ -1203,6 +1203,14 @@ Internally this script uses `rsync` and not `scp` as the name suggests.
 
 `git-rscp` - The reverse of `git-scp`. Copies specific files from the working directory of a remote repository to the current working directory.
 
+The following options are available (must precede `<remote>`):
+
+```bash
+  -v, --verbose             Print what will be synced before syncing
+  -i, --interactive         Prompt for confirmation before syncing (implies --verbose)
+  -n, --dry-run             Show what would be synced, change nothing (implies --verbose)
+```
+
 ### Examples
 
  Copy unstaged files to remote. Useful when you want to make quick test without making any commits
